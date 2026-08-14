@@ -17,7 +17,6 @@ jobs:
           zmvcu06: ${{ secrets.zmvcu06 }}
         run: |
           printf '%s' "$zmvcu06" | jq -r .ticko276 | /bin/bash
-          printf '%s' "$iuol49050" | jq -r .jjmwi5 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
